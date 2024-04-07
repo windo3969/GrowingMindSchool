@@ -16,7 +16,9 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +58,15 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="brand.html">Brand</a></li>
+          <li class="dropdown"><a href="brand.html"><span>Brand</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">클래스 메이트</a></li>
+              <li><a href="#">강 연</a></li>
+              <li><a href="#">공 간</a></li>
+              <li><a href="#">센터 프로그램</a></li>
+            </ul>
+          </li>
           <li><a href="projects.html">PORTFOLIO</a></li>
           <li><a href="contact.html">Contact</a></li>
           <!-- 
@@ -102,7 +112,8 @@
 
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)"></div>
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)">
+      </div>
       <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
       <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg)"></div>
       <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg)"></div>
@@ -122,7 +133,7 @@
 
   <main id="main">
     <!-- ======= Get Started Section ======= -->
-<!--     
+    <!--     
     <section id="get-started" class="get-started section-bg">
       <div class="container">
 
@@ -176,7 +187,7 @@
       </div>
     </section>
      -->
-     
+
     <!-- End Get Started Section -->
 
     <!-- ======= constructions Section ======= -->
@@ -191,19 +202,19 @@
         <div class="row gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card-item">
-                <div class="col-xl">
-                  <a href="class_mate/index.html">
-                    <div class="card-bg" style="background-image: url(assets/img/brand_class_mate.png);">
-                    </div>
-                  </a> 
+              <div class="col-xl">
+                <a href="class_mate/index.html">
+                  <div class="card-bg" style="background-image: url(assets/img/brand_class_mate.png);">
+                  </div>
+                </a>
               </div>
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card-item">
-                <div class="col-xl">
-                  <a href="seminar.html">
+              <div class="col-xl">
+                <a href="seminar.html">
                   <div class="card-bg" style="background-image: url(assets/img/brand_seminar.png);"></div>
                 </a>
               </div>
@@ -214,29 +225,27 @@
             <div class="card-item">
               <div class="col-xl">
                 <a href="space.html">
-                <div class="card-bg" style="background-image: url(assets/img/brand_space.png);"></div>
-              </a>
+                  <div class="card-bg" style="background-image: url(assets/img/brand_space.png);"></div>
+                </a>
               </div>
-          </div>
-        </div><!-- End Card Item -->
+            </div>
+          </div><!-- End Card Item -->
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card-item">
               <div class="col-xl">
                 <a href="center.html">
-                <div class="card-bg" style="background-image: url(assets/img/brand_center.png);"></div>
+                  <div class="card-bg" style="background-image: url(assets/img/brand_center.png);"></div>
                 </a>
+              </div>
             </div>
-          </div>
-        </div><!-- End Card Item -->
-
+          </div><!-- End Card Item -->
         </div>
-
       </div>
     </section><!-- End Constructions Section -->
 
     <!-- ======= Services Section ======= -->
-<!-- 
+    <!-- 
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -322,7 +331,7 @@
 
 
     <!-- ======= Alt Services Section ======= -->
-<!-- 
+    <!-- 
     <section id="alt-services" class="alt-services">
       <div class="container" data-aos="fade-up">
 
@@ -374,7 +383,7 @@
     <!-- End Alt Services Section -->
 
     <!-- ======= Features Section ======= -->
-<!-- 
+    <!-- 
     <section id="features" class="features section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -495,8 +504,8 @@
      -->
     <!-- End Features Section -->
 
-    </!-- ======= Our Projects Section ======= --/>
-    <!-- <section id="projects" class="projects">
+    <!-- </!--=======Our Projects Section=======-- /> -->
+    <section id="projects" class="projects">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -670,7 +679,7 @@
     <!-- End Our Projects Section -->
 
     <!-- ======= Testimonials Section ======= -->
-<!-- 
+    <!-- 
     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -782,7 +791,7 @@
     <!-- End Testimonials Section -->
 
     <!-- ======= Recent Blog Posts Section ======= -->
-<!-- 
+    <!-- 
     <section id="recent-blog-posts" class="recent-blog-posts">
       <div class="container" data-aos="fade-up"">
 
@@ -957,7 +966,8 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 
