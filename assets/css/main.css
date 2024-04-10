@@ -36,6 +36,7 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
   overflow-x: hidden;
+  word-break: keep-all;
 }
 
 a {
@@ -680,6 +681,13 @@ section {
   border-radius: 0;
 }
 
+.constructions .space-card-item {
+  border: none;
+  background: #fff;
+  position: relative;
+  border-radius: 0;
+}
+
 /* 이미지에 마우스 올려놓았을 때 변경하려면 여기 편집 */
 .constructions .card-item .card-bg {
   min-height: 300px;
@@ -688,6 +696,15 @@ section {
   background-repeat: no-repeat;
   transition: all 0.2s linear;
 }
+
+.constructions .space-card-item .card-bg {
+  min-height: 350px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.2s linear;
+}
+
 
 .constructions .card-item .card-bg:hover {
   /* 여기편집 */
@@ -2559,7 +2576,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/background-footer.jpg") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
