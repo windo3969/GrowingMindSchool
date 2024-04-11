@@ -10,6 +10,30 @@
 # Set main reusable colors and fonts using CSS variables
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
+.song-myung-regular {
+  font-family: "Song Myung", serif;
+  font-style: normal;
+}
+.noto-serif kr-extralight {
+  font-family: "Noto Serif KR", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* .noto-serif kr-regular {
+  font-family: "Noto Serif KR", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif kr-black {
+  font-family: "Noto Serif KR", serif;
+  font-weight: 900;
+  font-style: normal;
+} */
+
+
+
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -674,6 +698,7 @@ section {
 /*--------------------------------------------------------------
 # Constructions Section
 --------------------------------------------------------------*/
+
 .constructions .card-item {
   border: 1px solid rgba(82, 86, 94, 0.2);
   background: #fff;
